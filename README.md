@@ -2,8 +2,6 @@
 
 Professional-grade screen recording and editing suite designed for content creators, educators, and professionals. Create stunning screen captures with advanced features and real-time editing capabilities.
 
-![CaptureMate Pro](assets/banner.png)
-
 ## Key Features
 
 ### Professional Recording Studio
@@ -53,10 +51,6 @@ Professional-grade screen recording and editing suite designed for content creat
   - YouTube optimized
   - Social media ready
   - Professional 4K support
-- **Custom Export Options**
-  - Bitrate control
-  - Resolution selection
-  - Format-specific optimization
 
 ## Getting Started
 
@@ -90,29 +84,10 @@ pip install -r requirements.txt
 python app.py
 ```
 
-## Known Issues and Limitations
+## Known Issues
 
-1. **Export Module**: Currently, while the preview functionality works flawlessly, the final export process may encounter occasional issues. Our team is actively working on resolving these limitations.
-
-2. **System Audio Capture**: 
-   - Windows: Requires additional system permissions
-   - macOS: May require installation of additional audio drivers
-   - Linux: Limited to PulseAudio systems
-
-## Contributing
-
-We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting pull requests.
+- The export functionality currently has some limitations. While the preview works perfectly, there might be issues with the final export process. We're actively working on resolving this.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- FFmpeg team for video processing capabilities
-- OpenCV community for image processing features
-- Streamlit team for the web interface framework
-
-## Support
-
-For support, feature requests, or bug reports, please open an issue in our GitHub repository.
