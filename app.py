@@ -21,4 +21,14 @@ import ffmpeg  # ffmpeg-python
 import threading
 import pyautogui
 
-[Complete file content from the source file]
+# --------------------------------------------------------------------------
+#  STYLING & PAGE CONFIG
+# --------------------------------------------------------------------------
+st.set_page_config(
+    page_title="CaptureMate Pro",
+    page_icon="🎥",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
+
+[Complete file content from source]
