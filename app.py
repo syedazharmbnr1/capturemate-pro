@@ -17,8 +17,15 @@ import wave
 
 import moviepy.editor as mpe
 from moviepy.editor import VideoFileClip, vfx
-import ffmpeg  # ffmpeg-python
+import ffmpeg
 import threading
-import pyautogui
 
-[Rest of file content...]
+# Page Configuration
+st.set_page_config(
+    page_title="CaptureMate Pro",
+    page_icon="🎥",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
+
+[Rest of the file content...]
