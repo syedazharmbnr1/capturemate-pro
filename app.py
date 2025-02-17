@@ -10,15 +10,4 @@ import mss
 import zipfile
 import tempfile
 
-from pynput import mouse, keyboard
-from PIL import Image, ImageFilter
-import pyaudio
-import wave
-
-import moviepy.editor as mpe
-from moviepy.editor import VideoFileClip, vfx
-import ffmpeg  # ffmpeg-python
-import threading
-import pyautogui
-
 [Rest of the file content...]
