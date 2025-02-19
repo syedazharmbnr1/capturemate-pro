@@ -160,7 +160,7 @@ pip install -r requirements.txt
 
 4. Launch CaptureMate Pro:
 ```bash
-python app.py
+streamlit run app.py
 ```
 
 ## 🎮 Usage Guide
